@@ -1,0 +1,16 @@
+h1 {
+  color: blue; }
+
+div {
+  background-color: yellow; }
+
+body {
+  background-color: Gray; }
+
+ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: row; }
+
+p {
+  color: red; }

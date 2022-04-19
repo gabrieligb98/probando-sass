@@ -1,0 +1,29 @@
+$color-titulo:blue;
+$color-de-fondo:Gray;
+$color-de-div:yellow;
+$menu :none; 
+$color-parrafo: red;
+$display-flex: flex;
+$fila: row;
+
+h1 {
+    color: $color-titulo;
+}
+
+div {
+    background-color: $color-de-div;
+}
+
+body {
+    background-color: $color-de-fondo;
+}
+
+ul li {
+    list-style:$menu ;
+    display:$display-flex ;
+    flex-direction: $fila;
+}
+
+p {
+    color: $color-parrafo;
+}
